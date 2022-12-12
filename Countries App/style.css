@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.search_container{
+display: flex;
+justify-content: space-between;
+padding: 50px 50px;
+}
+input{
+    width: 300px;
+    height: 40px;
+}
+select{
+    width: 150px;
+    height: 40px;
+}
+
+#box_container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 19px;
+        grid-row-gap: 16px;
+        text-align: center;    
+        } 
+span{
+    color:rgb(139, 132, 132)
+}
+.inf_box{
+    background-color: #fff;
+    width: 200px;
+    height: 300px;
+    margin-left: 60px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
